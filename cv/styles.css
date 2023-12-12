@@ -1,0 +1,173 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(21, 131, 182);
+    display: flex;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #3498db; 
+    height: 150vh;
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    border-radius: 15px 0 0 15px; 
+    position: fixed;
+    margin-left: 250px;
+}
+
+.header img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    margin-bottom: 15px;
+    border: 4px solid white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.header a:hover {
+    color: #f2f2f2;
+}
+
+#container {
+    position: relative;
+    flex: 1;
+    max-width: 800px;
+    margin-left: 500px; /* Adjusted margin-left */
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#languageSwitch button {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 650px;
+}
+
+#languageSwitch button:hover {
+    background-color: #2073af;
+}
+
+#languageSwitch span {
+    margin-right: 5px;
+}
+
+#personalInf {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#personalInf p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+#personalInf a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+#skills {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Darker text color for better visibility */
+}
+
+.skills .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px; /* Adjusted margin-left to counteract default padding */
+    margin-right: -15px;
+}
+
+.skills .item {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 15px; /* Adjusted padding-left to counteract default margin */
+    padding-right: 15px;
+}
+
+.skills .skill-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px; /* Adjusted margin for better spacing */
+}
+
+.skills .progress {
+    height: 15px;
+    margin-top: 5px;
+}
+
+.skills h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #555; /* Darker text color for better visibility */
+}
+
+.skills .progress-bar {
+    animation: fillProgress 1.5s ease-in-out forwards;
+    background-color: #3498db; /* Use your preferred color */
+}
+
+#education {
+margin-top: 30px;
+}
+
+#education h2 {
+font-size: 24px;
+margin-bottom: 20px;
+color: #333; /* Darker text color for better visibility */
+}
+
+#education p {
+margin: 0 0 15px;
+font-size: 16px;
+line-height: 1.5;
+}
+
+#education a {
+color: #3498db;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s ease-in-out;
+}
+
+#education a:hover {
+color: #2073af;
+}
+
+.hobbies{
+ margin-left: 30px;
+ 
+}
